@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>surya - Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header section-->
-    <header class="header">
+    <header class="header about_text">
         <nav class="nav bd_grid">
             <div>
-                <a href="#" class="nav_logo">SURYA</a>
+                <a href="#" class="nav_logo">SURYA-PORTFOLIO</a>
             </div>
             <div class="nav_menu" id="nav_menu">
                 <ul class="nav_list">
@@ -32,17 +32,17 @@
     </header>
     <main class="main">
         <!-- Home section -->
-        <section class="home bd_grid" id="home">
+        <section class="home bd_grid " id="home">
             <div class="home_data">
                 <h1 class="home_title">Hi,<br>I'm <span class="home_title-color">Surya </span>Java Fullstack Developer</h1>
                 <a href="#contact" class="button">Contact</a>
             </div>
-            <div class="home_social">
+            <div class="home_social about_text">
                 <a href="" class="home_social-icon"><i class='bx bxl-instagram'></i></a>
-                <a href="" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="" class="home_social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/surya-a-java-developer/" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/suryaa-developer" class="home_social-icon"><i class='bx bxl-github'></i></a>
                 <a href="https://wa.me/916380003734" class="home_social-icon"><i class='bx bxl-whatsapp'></i></a>
-                <a href="https://suryabharathi411@gmail.com" class="home_social-icon"><i class='bx bxl-gmail'></i></a>
+                <a href="mailto:suryabharathi411@gmail.com" class="home_social-icon"><i class='bx bxl-gmail'></i></a>
             </div>
             <div class="home_img">
                 <svg
@@ -356,7 +356,7 @@
         <!-- About section -->
         <section class="about section" id="about">
             <h2 class="section-title">About</h2>
-            <div class="about_container bd_grid">
+            <div class="about_container bd_grid about_text">
                 <div class="about_img">
                     <svg
                     id="fe80fb2b-bcaf-407e-919b-306adc32f78b"
@@ -630,14 +630,14 @@
                 </div>
                 <div>
                     <h2 class="about_subtitle"> I'm Surya</h2>
-                    <p class="about_text"> 
+                    <p > 
                         I'm a budding Java Full Stack Developer skilled in Core Java, Spring Boot, MySQL, HTML, CSS, and JavaScript. Passionate about crafting efficient web applications, I understand the significance of caching for performance optimization. My academic background and hands-on projects have polished my backend and frontend development expertise. My portfolio showcases diverse projects, highlighting my ability to integrate backend services with intuitive frontend interfaces. Eager to transition into a professional environment, contribute to innovative projects, and embark on a journey of continuous growth. Let's connect and explore collaboration opportunities!
                     </p>
                 </div>
             </div>
         </section>
         <!-- Skill section -->
-        <section class="skills section" id="skills">
+        <section class="skills section " id="skills">
           <h2 class="section-title">Skills</h2>
           <div class="skills_container bd_grid ">
             <div class="about_text">
@@ -928,10 +928,51 @@
           </div>
         </section>
         <!-- Work section -->
+        <section class="work section" id="work">
+          <h2 class="section-title">Work</h2>
+          <div class="work_container bd_grid about_text">
+            <div class="work_img">
+              <a href="https://github.com/suryaa-developer/employee-management-system"><img src="/img/EMS project.png" alt="employee-management-system"></a>
+            </div>
+            <div class="work_img">
+              <a href="https://github.com/suryaa-developer/quiz-application">
+                <img src="/img/quiz app-min.png" alt="quiz-application">
+              </a>
+            </div>
+          </div>
+        </section>
         <!-- Contact section -->
+        <section class="contact section" id="contact">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact_container bd_grid about_text">
+            <form action="#" class="contact_form">
+              <input type="text" placeholder="Name" class="control_input">
+              <input type="mail" placeholder="Mail" class="control_input">
+              <textarea name="" id="" cols="0" rows="10" class="control_input"></textarea>
+              <input type="button" value="send" class="control_button button">
+            </form>
+          </div>
+        </section>
+        <!-- Footer section  -->
+        <footer class="footer">
+          <p class="footer_title">Surya A</p>
+          <div class="footer_social about_text">
+
+            <a href="" class="footer-icon"><i class='bx bxl-instagram'></i></a>
+
+            <a href="https://www.linkedin.com/in/surya-a-java-developer/" class="footer-icon"><i class='bx bxl-linkedin'></i></a>
+
+            <a href="https://github.com/suryaa-developer" class="footer-icon"><i class='bx bxl-github'></i></a>
+
+            <a href="https://wa.me/916380003734" class="footer-icon"><i class='bx bxl-whatsapp'></i></a>
+
+            <a href="mailto:suryabharathi411@gmail.com" class="footer-icon"><i class='bx bxl-gmail'></i></a>
+        </div>
+        <p>&#169; 2024 copyright all rserved</p>
+        </footer>
     </main>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
